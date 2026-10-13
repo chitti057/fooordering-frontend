@@ -1,0 +1,28 @@
+*{margin:0;padding:0;box-sizing:border-box}
+.App{background:#f5f5f5;min-height:100vh;font-family:Arial}
+.header{background:orange;color:white;padding:15px;display:flex;gap:10px;justify-content:space-between;align-items:center;flex-wrap:wrap;position:sticky;top:0;z-index:10}
+.loc{background:white;color:black;padding:5px 10px;border-radius:20px}
+.loc select{border:none;font-weight:bold;outline:none}
+.search{padding:8px 12px;border-radius:20px;border:none;width:200px;outline:none}
+.badge{background:white;color:orange;padding:8px 12px;border-radius:20px;font-weight:bold;cursor:pointer}
+.filters{display:flex;gap:8px;padding:10px;background:white;overflow-x:auto;position:sticky;top:60px;z-index:9}
+.fbtn,.factive{padding:6px 12px;border-radius:20px;border:1px solid #ddd;white-space:nowrap;cursor:pointer}
+.factive{background:orange;color:white;border-color:orange}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:15px;padding:15px}
+.card{background:white;border-radius:10px;overflow:hidden;box-shadow:0 2px 5px rgba(0,0,0,0.1)}
+.card img{width:100%;height:170px;object-fit:cover}
+.info{padding:10px}
+.info h3{font-size:13px;display:flex;justify-content:space-between;align-items:center}
+.rating{background:#48c479;color:white;padding:2px 5px;border-radius:3px;font-size:10px}
+.cat{background:#ffe5cc;color:orange;padding:2px 8px;border-radius:10px;font-size:10px;font-weight:bold}
+.info p{font-size:12px;color:#666;margin:3px 0}
+.row{display:flex;justify-content:space-between;margin-top:8px;align-items:center}
+.row b{font-size:17px}
+.row button{background:#60b246;color:white;border:none;padding:5px 10px;border-radius:5px;cursor:pointer;font-weight:bold}
+.cartOverlay{position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.5);display:flex;justify-content:center;align-items:center;z-index:99;padding:15px}
+.cartBox{background:white;padding:20px;border-radius:10px;width:100%;max-width:400px;max-height:85vh;overflow-y:auto}
+.cartItem{display:flex;justify-content:space-between;margin:8px 0;font-size:13px}
+.cartItem button{padding:2px 7px;margin:0 2px;border:1px solid #ddd;background:white;border-radius:3px;cursor:pointer}
+.addr{width:100%;padding:8px;margin:10px 0;border:1px solid #ddd;border-radius:5px}
+.order{background:orange;color:white;border:none;padding:10px;width:100%;border-radius:5px;font-weight:bold;cursor:pointer;margin-top:10px}
+.payOpt label{display:block;padding:8px;border:1px solid #eee;margin:5px 0;border-radius:5px;cursor:pointer}
